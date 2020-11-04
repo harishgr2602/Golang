@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(a)
 	fmt.Printf("Length : %v\n", len(a))
 	fmt.Printf("Capacity : %v\n", cap(a))
+	
 	//adding elements within an empty slice
 	a = append(a, 1)
 	fmt.Println(a)
