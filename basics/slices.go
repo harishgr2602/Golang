@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	//basic slice concept
 	a := []int{1, 2, 3}
 	b := a
