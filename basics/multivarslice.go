@@ -15,6 +15,7 @@ func main() {
 	//fmt.Println(c)
 	//fmt.Println(d)
 	//fmt.Println(e)
+	
 	//using make functions for slices
 	a := make([]int, 3, 100)
 	fmt.Println(a)
