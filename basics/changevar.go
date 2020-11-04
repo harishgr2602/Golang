@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-)
+	"fmt")
 
 func main() {
 	var i int = 42
