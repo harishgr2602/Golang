@@ -5,6 +5,7 @@ import (
 )
 
 //displaying the details
+
 func main() {
 	var students [3]string
 	fmt.Printf("Students: %v\n", students)
