@@ -11,6 +11,7 @@ func main() {
 	b[1] = 5
 	fmt.Println(a)
 	fmt.Println(b)
+	
 	//using pointers within array
 	c := [...]int{1, 2, 3}
 	d := &c
