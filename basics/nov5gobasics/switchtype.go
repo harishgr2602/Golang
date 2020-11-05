@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	var i interface{} = [3]int{}
 	switch i.(type) {
 	case int:
