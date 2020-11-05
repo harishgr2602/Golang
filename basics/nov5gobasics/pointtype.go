@@ -6,6 +6,7 @@ import (
 
 func main() {
 	var ms *myStruct
+	
 	//buitin new function
 	ms = new(myStruct)
 	ms.foo = 42
