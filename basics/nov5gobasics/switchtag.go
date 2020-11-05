@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	i := 22
 	switch {
 	case i <= 10:
