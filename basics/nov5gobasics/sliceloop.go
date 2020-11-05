@@ -6,6 +6,7 @@ import (
 
 func main() {
 	//for maps
+
 	statePopulations := map[string]int{
 		"California":    3920049,
 		"Texas":         2726449,
