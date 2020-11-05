@@ -22,6 +22,7 @@ func main() {
 		SpeedKPH: 123,
 		CanFly:   false,
 	}
+	
 	//b.name = "Ostrich"
 	//b.origin = "Africa"
 	//b.SpeedKPH = 123
