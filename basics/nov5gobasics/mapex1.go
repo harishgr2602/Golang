@@ -15,6 +15,7 @@ func main() {
 		"Illinois":      1204565,
 		"Ohio":          1135664,
 	}
+	
 	//with an index in map
 	//m := map[[3]int]string{}
 	//fmt.Println(statePopulations, m)
