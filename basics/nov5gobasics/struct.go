@@ -7,8 +7,7 @@ import (
 type Doctor struct {
 	number     int
 	Doctorname string
-	companies  []string
-}
+	companies  []string}
 
 func main() {
 	aDoctor := Doctor{
