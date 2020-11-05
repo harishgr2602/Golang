@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	aDoctor := struct{ name string }{name: "Dravid mani"}
 	anotherDoctor := aDoctor
 	anotherDoctor.name = "Rishi kumar"
