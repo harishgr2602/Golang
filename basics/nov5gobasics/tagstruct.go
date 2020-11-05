@@ -5,6 +5,7 @@ import (
 	"reflect"
 )
 
+
 type Animal struct {
 	Name   string `required max:"100"`
 	origin string
