@@ -7,6 +7,7 @@ import (
 func main() {
 	sum(1, 2, 3, 4, 5)
 }
+
 func sum(values ...int) {
 	fmt.Println(values)
 	result := 0
