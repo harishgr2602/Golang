@@ -1,0 +1,27 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+var wg = sync.WaitGroup{}
+
+func main() {
+	ch := make(chan int)
+	wg.Add(2)
+	//recieving go routine
+	go func() {
+		i := <-ch
+		fmt.Println(i)
+		wg.Done()
+	}()
+	//sending go routine
+	go func() {
+		i := 42
+		ch <- i
+		i = 27
+		wg.Done()
+	}()
+	wg.Wait()
+}
