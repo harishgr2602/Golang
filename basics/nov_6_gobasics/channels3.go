@@ -18,6 +18,7 @@ func main() {
 		fmt.Println(i)
 		wg.Done()
 	}(ch)
+	
 	//sending go routine
 	go func(ch chan<- int) {
 		ch <- 42
