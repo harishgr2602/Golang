@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 )
-
 func main() {
 	g := greeter{
 		greeting: "hello",
