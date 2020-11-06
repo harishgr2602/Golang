@@ -16,10 +16,12 @@ func main() {
 	}
 	wg.Wait()
 }
+
 func sayHello() {
 	fmt.Printf("Hello #%v\n", counter)
 	wg.Done()
 }
+
 func increment() {
 	counter++
 	wg.Done()
