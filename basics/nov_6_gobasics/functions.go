@@ -9,6 +9,7 @@ func main() {
 	name := "Stacy"
 	sayGreeting(greeting, name)
 }
+
 func sayGreeting(greeting, name string) {
 	fmt.Println(greeting, name)
 	name = "Ted"
