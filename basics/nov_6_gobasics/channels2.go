@@ -21,6 +21,7 @@ func main() {
 		}()
 
 		//sending go routine
+		
 		go func() {
 			ch <- 42
 			wg.Done()
