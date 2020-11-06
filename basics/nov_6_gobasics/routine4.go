@@ -11,6 +11,7 @@ var counter = 0
 var m = sync.RWMutex{}
 
 //read writer mutex
+
 func main() {
 	runtime.GOMAXPROCS(100)
 	for i := 0; i < 10; i++ {
