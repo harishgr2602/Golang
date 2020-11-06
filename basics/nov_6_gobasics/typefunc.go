@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	//synchronous function
 	for i := 0; i < 5; i++ {
 		func(i int) {
