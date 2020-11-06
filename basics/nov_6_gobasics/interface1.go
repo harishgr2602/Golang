@@ -5,6 +5,7 @@ import (
 )
 
 //single method interface
+
 func main() {
 	var w Writer = ConsoleWriter{}
 	w.Write([]byte("Hello Go!"))
