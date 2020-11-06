@@ -16,6 +16,7 @@ func main() {
 		}
 		wg.Done()
 	}(ch)
+	
 	go func(ch chan<- int) {
 		ch <- 42
 		ch <- 27
