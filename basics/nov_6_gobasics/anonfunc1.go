@@ -2,6 +2,7 @@ package main
 import(
     "fmt"
 )
+
 func main() {
     var divide func(float64, float64) (float64, error) 
     divide = func(a, b float64) (float64, error) {
