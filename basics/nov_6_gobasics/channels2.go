@@ -6,8 +6,8 @@ import (
 )
 
 var wg = sync.WaitGroup{}
-
 // by for loop creating 5 routines
+
 func main() {
 	ch := make(chan int)
 	for j := 0; j < 5; j++ {
