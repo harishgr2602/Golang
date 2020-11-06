@@ -7,6 +7,7 @@ import (
 var wg = sync.waitGroup{}
 
 func main() {
+	
 	var msg = "Hello"
 	wg.Add(1)
 	go func(msg string) {
