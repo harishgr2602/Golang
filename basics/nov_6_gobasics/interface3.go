@@ -6,6 +6,7 @@ import (
 )
 
 //embedding interfaces
+
 func main() {
 	var wc WriterCloser = NewBufferedWriterCloser()
 	wc.Write([]byte("Hello guys, Its the embedding of interfaces"))
