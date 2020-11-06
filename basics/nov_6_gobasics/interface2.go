@@ -5,6 +5,7 @@ import (
 )
 
 //incrementer function with interface
+
 func main() {
 	myInt := IntCounter(0)
 	var inc Incrementer = &myInt
