@@ -16,6 +16,7 @@ func main() {
 		fmt.Println(i)
 		wg.Done()
 	}()
+	
 	//sending go routine
 	go func() {
 		i := 42
