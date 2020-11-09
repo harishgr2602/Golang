@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//append
 func main() {
 	slice1 := []int{1, 2, 3}
 	slice2 := append(slice1, 4, 5)
