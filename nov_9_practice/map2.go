@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//mappimg the values with string 3
 func main() {
 	elements := map[string]map[string]string{
 		"H": map[string]string{
