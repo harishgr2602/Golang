@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//copying slice
 func main() {
 	slice1 := []int{1, 2, 3}
 	slice2 := make([]int, 2)
