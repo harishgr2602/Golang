@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//calaulation with array
 func main() {
 	var x [5]float64
 	x[0] = 98
