@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	var value int = 2
-
 	switch {
 	case value == 1:
 		fmt.Println("Hello")
