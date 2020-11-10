@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//using structure for interface
 func main() {
 	rect := Rectangle{20, 50}
 	circ := Circle{4}
