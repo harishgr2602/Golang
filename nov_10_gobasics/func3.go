@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//factorial using function
 func main() {
 	fmt.Println(factorial(5))
 }
