@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//using structures in go
 func main() {
 	rect1 := Rectangle{10, 5}
 	fmt.Println(rect1.height, rect1.width)
