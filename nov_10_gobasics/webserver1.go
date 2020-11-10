@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 )
-
+//creating the local host webserver
 func main() {
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/HELLO!!!", handler2)
