@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//switch case 
 func main() {
 	age := 18
 	switch age {
