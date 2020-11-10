@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//interfacing the structures
 func main() {
 	squr := Square{20, 20}
 	circ := Circle{4}
