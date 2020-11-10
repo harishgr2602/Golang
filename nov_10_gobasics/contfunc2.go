@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//continuous function recover and panic
 func main() {
 	fmt.Println(div(3, 0))
 	fmt.Println(div(3, 5))
