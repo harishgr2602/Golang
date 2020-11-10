@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//mapping of values
 func main() {
 	Superhero := map[string]map[string]string{
 		"Superman": map[string]string{
