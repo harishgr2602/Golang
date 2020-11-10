@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//if else looping
 func main() {
 	x := 5
 	y := 10
