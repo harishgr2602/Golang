@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//ARRAy AND FOR TO FUNCTION
 func main() {
 	fmt.Println(subemup(10, 20, 30, 40, 50))
 }
