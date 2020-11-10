@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//operators
 func main() {
 
 	x, y := 5, 6
