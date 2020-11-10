@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//basic array concepts
 func main() {
 	var EvenNum [5]int
 	EvenNum[0] = 0
