@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//continuous function with defer
 func main() {
 	defer FirstRun()
 	SecondRun()
