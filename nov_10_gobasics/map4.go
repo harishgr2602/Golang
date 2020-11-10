@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//mapping of values
 func main() {
 	Authors := map[string]map[string]string{
 		"Shakesphere": map[string]string{
