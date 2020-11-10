@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//nested loop
 func main() {
 	color := "red"
 	if color == "red" {
