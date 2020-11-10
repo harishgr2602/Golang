@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//slicing of array
 func main() {
 	EvenNum := [5]int{0, 2, 4, 6, 8}
 	for i, value := range EvenNum {
