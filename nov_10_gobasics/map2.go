@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//Mapping of values
 func main() {
 	StudentAge := make(map[string]int)
 	StudentAge["Dinesh"] = 24
