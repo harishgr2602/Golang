@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//mapping of values
 func main() {
 	Student := make(map[string]int)
 	Student["Aryya"] = 42
