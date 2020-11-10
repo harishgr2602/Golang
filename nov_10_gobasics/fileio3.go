@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 )
-
+//read and write the file
 func main() {
 	file, err := os.Create("my.txt")
 	if err != nil {
