@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//factorial by function
 func main() {
 	num := 8
 	fmt.Println(factorial(num))
