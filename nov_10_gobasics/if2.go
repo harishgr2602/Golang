@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//if else loop
 func main() {
 	age := 18
 	if age > 18 {
