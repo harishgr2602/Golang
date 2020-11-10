@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//switch case
 func main() {
 	color := "blue"
 	switch color {
