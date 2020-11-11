@@ -122,4 +122,3 @@ ALTER TABLE works_on ADD FOREIGN KEY (essn) REFERENCES employee(ssn);
 ALTER TABLE works_on ADD FOREIGN KEY (pno) REFERENCES project(pnumber);
 ALTER TABLE dependent ADD FOREIGN KEY (essn) REFERENCES employee(ssn);
 
-UPDATE employee SET ssn='888995555' WHERE l_name='Borg';
