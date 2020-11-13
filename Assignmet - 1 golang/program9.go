@@ -8,7 +8,6 @@ func main() {
 
 	fmt.Println("Area of rectangle is :", rect1.area())
 }
-
 type Rectangle struct {
 	height float64
 	width  float64
