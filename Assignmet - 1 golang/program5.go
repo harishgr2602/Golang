@@ -1,5 +1,3 @@
-// Golang Program to illustrate
-// how to get a random number
 package main
 
 import (
