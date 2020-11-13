@@ -13,6 +13,7 @@ func concurrentFunc(done chan string) {
 	fmt.Println("finished loop in concurrentFunc")
 	done <- "goroutine finished"
 }
+
 func main() {
 	done := make(chan string)
 	go concurrentFunc(done)
