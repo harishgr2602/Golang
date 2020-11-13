@@ -16,6 +16,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	
 	fmt.Println("File name:", fileInfo.Name())
 	fmt.Println("Size in bytes:", fileInfo.Size())
 	fmt.Println("Permissions Given:", fileInfo.Mode())
