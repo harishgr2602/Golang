@@ -30,6 +30,7 @@ func digits(number int) int {
 	time.Sleep(2 * time.Second)
 	return sum
 }
+
 func worker(wg *sync.WaitGroup) {
 	for job := range jobs {
 		output := Result{job, digits(job.randomno)}
