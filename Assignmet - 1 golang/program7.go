@@ -11,6 +11,7 @@ type Sport struct {
 }
 
 func main() {
+	
 	sports := Sport{"MS Dhoni", "Cricket"}
 	res, err := json.Marshal(sports)
 
