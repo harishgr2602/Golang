@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	
 	f, err := os.Open("test.txt")
 	if err != nil {
 		if pErr, ok := err.(*os.PathError); ok {
