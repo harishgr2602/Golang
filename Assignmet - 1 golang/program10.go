@@ -63,7 +63,6 @@ func verifyPassword(password string) error {
 	return nil
 }
 
-// Let's test it
 func main() {
 	password := "Apple_1234@"
 	err := verifyPassword(password)
