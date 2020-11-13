@@ -1,0 +1,1 @@
+My file created through Go lang. just now im reading the file information.
