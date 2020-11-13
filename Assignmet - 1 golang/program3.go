@@ -29,6 +29,7 @@ func genRes(myWorks chan MyWork) {
 		myWork.conn.Write([]byte("Hello, " + myWork.name))
 	}
 }
+
 func main() {
 	myWorks := make(chan MyWork)
 	go genRes(myWorks)
