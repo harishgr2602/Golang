@@ -1,1 +1,1 @@
-My file created through Go lang. just now im reading the file information.
+My file created through Go lang. Just now im reading the file information by go program.
